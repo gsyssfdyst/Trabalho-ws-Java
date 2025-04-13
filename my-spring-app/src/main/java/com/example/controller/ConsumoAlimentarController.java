@@ -31,7 +31,7 @@ public class ConsumoAlimentarController {
     }
 
     @GetMapping("/participante/{idParticipante}")
-    public ResponseEntity<List<ConsumoAlimentar>> getConsumoByParticipante(@PathVariable Integer idParticipante) {
+    public ResponseEntity<List<ConsumoAlimentar>> getConsumoByParticipante(@PathVariable Long idParticipante) {
         List<ConsumoAlimentar> consumos = consumoAlimentarService.getConsumoByParticipante(idParticipante);
         return new ResponseEntity<>(consumos, HttpStatus.OK);
     }

@@ -22,7 +22,7 @@ public class ConsumoAlimentarService {
         return consumoAlimentarRepository.findById(id);
     }
 
-    public List<ConsumoAlimentar> getConsumoByParticipante(Integer idParticipante) {
+    public List<ConsumoAlimentar> getConsumoByParticipante(Long idParticipante) {
         return consumoAlimentarRepository.findByIdParticipante(idParticipante);
     }
 

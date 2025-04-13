@@ -1,0 +1,8 @@
+com/example/repository/UsuarioRepository.class
+com/example/repository/ConsumoAlimentarRepository.class
+com/example/entity/Usuario.class
+com/example/service/ConsumoAlimentarService.class
+com/example/entity/ConsumoAlimentar.class
+com/example/MySpringApp.class
+com/example/service/UserDetailsServiceImpl.class
+com/example/controller/ConsumoAlimentarController.class

@@ -6,5 +6,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.List;
 
 public interface ConsumoAlimentarRepository extends JpaRepository<ConsumoAlimentar, Long> {
-    List<ConsumoAlimentar> findByIdParticipante(Integer idParticipante);
+    List<ConsumoAlimentar> findByIdParticipante(Long idParticipante);
 }
